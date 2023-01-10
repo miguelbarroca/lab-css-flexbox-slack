@@ -6,5 +6,161 @@ titles black: #191817
 paragraph black: #000000
 paragraph yellow: #ECB12F
 links blue: #2E71A6
-footer links grey: #454245
-*/
+footer links grey: #454245*/
+    
+
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+
+a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #540B51;
+
+  }
+
+  .slackLogo {
+    width: 25%;
+    margin: 15px 15px;
+  }
+
+  nav button {
+    border: none;
+    background-color: #540B51;
+    margin: 15px 15px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  header {
+   background-color: #540B51;
+  }
+
+  header h1 {
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+
+  header div p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+  }
+
+  header > div > p > span {
+    color: #ECB12F;
+  }
+
+header > div > div > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div:last-child > img {
+  width: 100vw;
+}
+
+.middleIMG {
+  width: 100vw;
+}
+
+header > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-top: 15px;
+}
+
+header > div > div > button:first-child {
+  color: #540B51;
+  width: 75%;
+  height: 50px;
+}
+
+header > div > div > button:last-child {
+  width: 75%;
+  height: 50px;
+  background-color: #4285F4;
+  color: white;
+}
+
+.slackappIMG {
+  padding-top: 20px;
+}
+
+main {
+  background-color:#F3EAE2 ;
+}
+
+main section p {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+main section:first-child > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+main section:first-child > div > img {
+  height: 50px;
+}
+
+.sectionTwo h2 {
+  margin: 15px
+}
+
+.sectionTwo p {
+  text-align: left;
+  padding-right: 200px;
+  padding-left: 15px;
+}
+
+.channels {
+  color: #2E71A6;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.sectionThree h2 {
+  padding-top: 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.sectionThree div p {
+  padding-top: 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+
+
+
+}
+
+
+
+    
+  
+  
